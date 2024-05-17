@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-29T14:00:27 IST" name="Default suite" finished-at="2023-12-29T14:00:35 IST" duration-ms="8188">
+    <groups>
+    </groups>
+    <test started-at="2023-12-29T14:00:27 IST" name="Default test" finished-at="2023-12-29T14:00:35 IST" duration-ms="8188">
+      <class name="reports_gen.extent_script">
+        <test-method signature="sample()[pri:0, instance:reports_gen.extent_script@b7838a9]" started-at="2023-12-29T14:00:27 IST" name="sample" finished-at="2023-12-29T14:00:35 IST" duration-ms="8100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- reports_gen.extent_script -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

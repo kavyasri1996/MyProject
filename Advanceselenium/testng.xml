@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Loans">
+  <test thread-count="5" name="BikeLoan"> 
+    <classes>
+      <class name="testng.BikeLoan">
+      <methods>
+      <include name="newBikeLoan"></include>
+      </methods>
+      </class>
+      </classes>
+      </test>
+      
+      <test name="CarLoan">
+      <classes>
+      <class name="testng.CarLoan">
+      <methods>
+      <include name="newCarLoan"></include>
+      </methods>
+      </class>
+      </classes>
+      </test>
+      
+      <test name="GoldLoan">
+      <classes>
+      <class name="testng.GoldLoan">
+      <methods>
+      <include name="newGoldLoan"></include>
+      </methods>
+      </class>
+      </classes>
+      </test>
+      
+</suite> <!-- Suite -->
